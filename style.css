@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(97, 88, 88);
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    align-items: center;
+    gap: 20px;
+}
+.sub
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 2rem;
+}
+.green
+{
+    background-color: green;
+
+}
+.red
+{
+    background-color: red;
+    
+}
+.yellow
+{
+    background-color: yellow;
+    
+}
+.blue
+{
+    background-color: blue;
+    
+}
+.grid_container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+
+}
+.click_style
+{
+    opacity: 0.6;
+}
